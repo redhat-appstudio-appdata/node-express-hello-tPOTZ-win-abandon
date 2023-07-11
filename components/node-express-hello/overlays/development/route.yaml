@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: node-express-hello
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: node-express-hello
+    app.kubernetes.io/part-of: node-express-hello
+  name: node-express-hellofu5h
+spec:
+  path: /
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: node-express-hello
+    weight: null
+status: {}
