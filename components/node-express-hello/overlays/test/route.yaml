@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: node-express-hello
     app.kubernetes.io/part-of: node-express-hello
-  name: node-express-hellompki
+  name: node-express-hellomkqf
 spec:
   path: /
   port:
