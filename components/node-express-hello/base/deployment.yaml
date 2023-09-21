@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: node-express-hello
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/node-express-hello/node-express-hello@sha256:0fb9cc6168337aba069afa58421b1dc7382b302274bcf198abe9dd623c6baf0e
+      - image: quay.io/redhat-user-workloads/karthik-jk-tenant/node-express-hello/node-express-hello@sha256:1235fab1efe22b38062633348f1b2a50e1f869a9c7bca35143247f080848865e
         name: my-nodejs
         ports:
         - containerPort: 3001
